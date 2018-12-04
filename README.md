@@ -6,7 +6,9 @@ This is Web Site Cording Starter Template.
 
 
 ## Feature
-- Drawer Menu
+- Drawer Menu(SP)
+- Sticky Change Header(PC)
+
 
 ## Author
 

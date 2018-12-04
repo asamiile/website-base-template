@@ -16,6 +16,27 @@
   position: absolute;
   top: 15px;
   right: 15px;
+  display: block;
+}
+@media (min-width: 481px) {
+  .btn-menu {
+    display: none;
+  }
+}
+
+// スティッキーヘッダー
+.header-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  width: 100%;
+  height: 50px;
+  padding: 15px;
+  color: #fff;
+  background-color: #999;
+  box-sizing: border-box;
+  z-index: 9999;
 }
 
 // ドロワーメニュー
