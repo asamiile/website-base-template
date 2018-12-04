@@ -1,3 +1,30 @@
+.wrapper {
+  position: relative;
+  width: 100%;
+  height: 100vh; }
 
+.header {
+  position: relative;
+  height: 50px;
+  color: #fff;
+  background-color: #777; }
+
+.btn-menu {
+  position: absolute;
+  top: 15px;
+  right: 15px; }
+
+.drawer {
+  position: fixed;
+  top: 50px;
+  right: 0;
+  width: 100%;
+  height: calc(100vh - 50px);
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: all .2s;
+  transform: translate(100%); }
+  .drawer.open {
+    transform: translate(0); }
 
 /*# sourceMappingURL=style.css.map */
